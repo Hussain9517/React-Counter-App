@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Philosopher', sans-serif;
+  /* Created with https://www.css-gradient.com */
+  background: #2CBAD2;
+  background: -webkit-linear-gradient(top left, #31393b, #5f8497);
+  background: -moz-linear-gradient(top left, #394345, #697f8a);
+  background: linear-gradient(to bottom right, #45494a, #678494);;
+}
+
+.container-fluid
+{
+  /* Created with https://www.css-gradient.com */
+  background: #2CBAD2;
+  background: -webkit-linear-gradient(top left, #31393b, #5f8497);
+  background: -moz-linear-gradient(top left, #394345, #697f8a);
+  background: linear-gradient(to bottom right, #45494a, #678494);;
+  height: 757px;
+}
+
+.Container-margin
+{
+  margin-top: 52.5px;
+  background-color: black;
+  height: 600px;
+  /* Created with https://www.css-gradient.com */
+  background: #545560;
+  background: -webkit-linear-gradient(top left, #545560, #63aab4);
+  background: -moz-linear-gradient(top left, #545560, #65a9b2);
+  background: linear-gradient(to bottom right, #545560, #68a9b2);
+  border-radius: 20px;
+
+}
+
+div.container
+{
+  max-width: 900px;
+}
+
+h1
+{
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  padding-top: 100px;
+  font-weight: bolder;
+  color: #31393b;
+}
+
+h2
+{
+  color: whitesmoke;
+  padding-bottom: 40px;
+}
+
+button.btn
+{
+  font-family: 'Philosopher', sans-serif;
+  padding: 5px 15px;
+  font-size: 24px;
+  display: block;  
+  margin: 19px auto;
+  background-color: #688da0;
+}
+
+button.btn:hover
+{
+  font-size: 30px;
+  transition: 600ms ease all;
+  border: 1px solid #31393b;
+}
+
+
